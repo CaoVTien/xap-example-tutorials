@@ -92,8 +92,7 @@ DEPLOYMENT
 ----------
 
 To deploy the processing units onto the Service Grid:
-0. Unzip advanced_scripts.zip file located in <gs home dir>\bin directory
-1. Start a GSM (GSM.bat/.sh) and *two* GSCs (GSC.bat/sh)
+1. Start a Service Grid Agent (gs-agent.bat/.sh)
 >> Deploying the Runtime Processing Unit
 2. Start the GigaSpaces Management Center by executing <gs home dir>\gs-ui.bat (.sh)
 3. From the 'Launch' menu, select 'SBA Application - Processing Unit...'.
@@ -109,8 +108,8 @@ To deploy the processing units onto the Service Grid:
 12. Repeat steps 3,4,6 to deploy the Stats Module. In step 4 select 'oms-stats' as the deployment name.
 13. Click deploy to deploy the Stats Module. 
 >> Optional: viewing deployment
-10. In the GS-UI, click the 'Deployed Processing Units' tab right click on 'oms-stats [1]' tree node
- and select "Show details of oms-stats [1]..." popup menu item, in opened dialog you will see graph with three monitors
-counting the order events written, processed, and rejected due to missing account. 
+10. In the GS-UI, at the 'Deployed Processing Units' tab, expand the `Processing Units` tree and navigate 
+to the `Event Containers` view within `oms-stats`. You will see information about the number of processed
+events.
 
 
