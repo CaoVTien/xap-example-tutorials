@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # purpose: copmiles the runtime, feeder and stats processing units
 
 # Setting environment (calls <GigaSpace Home Dir>\bin\setEnv.bat to set GS_JARS,JAVACCMD)

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Initializing the common environment for GigaSpaces
 JSHOMEDIR=`dirname $0`/../../../../..; export JSHOMEDIR

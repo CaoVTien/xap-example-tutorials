@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # purpose: copies the previously compiled processing units to the GigaSpaces deploy folder
 
 # Setting environment (calls <GigaSpace Home Dir>\bin\setEnv.bat to set GS_JARS,JAVACCMD)
